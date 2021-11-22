@@ -34,9 +34,9 @@ Build a RESTful API that can `get/create/update/delete` user data from a persist
 
 ### Tech stack
 
+- **Provide a Docker stack (give the reviewers a happy day and they will thank you)**
 - Use Node.js with any or no framework.
 - Use any DB. Mongo DB is **highly preferred**.
-- Provide a Docker stack
 - Provide  **CLEAR README**  information like versions required, step-by-step to setup environment, etc
 
 ### Bonus
@@ -47,7 +47,7 @@ Build a RESTful API that can `get/create/update/delete` user data from a persist
 
 ### Advanced requirements
 
-*These are used for some further challenges. You can safely skip them if you are not asked to do any, but feel free to try out.*
+*These are mandatory for mid, senior and lead developer levels*
 
 - Provide a complete user auth (authentication/authorization/etc.) strategy.
 - Provide a complete logging (when/how/etc.) strategy.
