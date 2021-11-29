@@ -1,0 +1,22 @@
+version: '3.7'
+
+services:
+    web:
+        container_name: web
+        build: .
+        restart: always
+        env_file:
+            - .env
+        links:
+            - db
+        ports:
+            - ${DOCKER_PORT}:${APP_PORT}
+
+    db:
+        container_name: db
+        image: mongo
+        restart: always
+        env_file:
+            - .env
+        ports:
+            - '${DB_PORT}:27017'
